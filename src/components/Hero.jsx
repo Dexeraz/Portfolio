@@ -20,11 +20,7 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Michał</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            As a self-taught web developer, I am dedicated to continuous
-            learning and passionate about improving my skills.{" "}
-            <br className="sm:block hidden" />
-            My daily approach to web development involves a focus on expanding
-            my knowledge and advancing my abilities.
+          "If debugging is the process of removing software bugs, then <br className='sm:block hidden' />programming must be the process of putting them in."<br className='sm:block hidden' /> - Edsger Dijkstra
           </p>
         </div>
       </div>
