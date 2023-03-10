@@ -19,9 +19,10 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className='text-[#915EFF]'>Michał</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          "If debugging is the process of removing software bugs, then <br className='sm:block hidden' />programming must be the process of putting them in."<br className='sm:block hidden' /> - Edsger Dijkstra
+          <p className={`${styles.heroSubText} mt-2 text-white-100 italic text-justify`}>
+          "If debugging is the process of removing software bugs, then programming must be the process of putting them in."<br className='sm:block hidden' /> 
           </p>
+          <p className={`${styles.heroSubText} mt-2 text-white-100 italic text-right`}>- Edsger Dijkstra</p>
         </div>
       </div>
 

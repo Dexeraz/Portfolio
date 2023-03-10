@@ -16,7 +16,7 @@ const ServiceCard = ({ index, title, icon }) => (
     >
       <div
         options={{
-          max: 15,
+          max: 45,
           scale: 1,
           speed: 450,
         }}
