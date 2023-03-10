@@ -181,9 +181,8 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "E-commerce App",
+    description: "description 3",
     tags: [
       {
         name: "react",
@@ -199,12 +198,11 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Dexeraz/ecommerce-college-app",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "Lua Script",
+    description: "Scrit for game development classes. The link will be updated after the tournament ",
     tags: [
       {
         name: "react",
@@ -223,9 +221,8 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    name: "Flask CMS",
+    description: "description 1",
     tags: [
       {
         name: "nextjs",
@@ -241,7 +238,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Dexeraz/Flask_CMS",
   },
 ];
 
