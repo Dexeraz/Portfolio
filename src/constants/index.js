@@ -164,18 +164,26 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "Hi mom",
+    name: "My mom",
+    designation: "CEO",
+    company: "of my family",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    name: "lorem Ipsum 1",
+    designation: "Lorem",
+    company: "Ipsum",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
+  },
+  {
+    testimonial:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    name: "lorem Ipsum 2",
+    designation: "Lorem",
+    company: "Ipsum",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
 ];
@@ -207,7 +215,8 @@ const projects = [
   },
   {
     name: "Lua Script",
-    description: "Scrit for game development classes. The link will be updated after the tournament ",
+    description:
+      "Scrit for game development classes. The link will be updated after the tournament ",
     tags: [
       {
         name: "Lua",
