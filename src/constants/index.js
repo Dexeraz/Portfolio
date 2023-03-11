@@ -53,10 +53,6 @@ const services = [
     title: "Backend Developer",
     icon: backend,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
 ];
 
 const technologies = [
@@ -134,7 +130,8 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "October 2022 - Present",
     points: [
-      "As a procurement specialist, I am responsible for managing the procurement process for organizations. This includes sourcing potential suppliers, negotiating contracts, processing purchase orders, managing inventory, budgeting, managing supplier relationships, and mitigating potential procurement risks.",
+      "As a procurement specialist, I am responsible for managing the procurement process for organizations.",
+      "This includes sourcing potential suppliers, negotiating contracts, processing purchase orders, managing inventory, budgeting, managing supplier relationships, and mitigating potential procurement risks.",
       "I have strong negotiation and communication skills, the ability to manage multiple projects simultaneously, proficiency in procurement software and tools, and demonstrated ability to identify and mitigate potential risks.",
     ],
   },
@@ -148,6 +145,18 @@ const experiences = [
       "As a Junior Automation Systems Specialist, I have played a crucial role in ensuring the seamless operation of production machinery.",
       "My core responsibilities have included programming PLCs, as well as conducting regular system maintenance to ensure optimal performance.",
       "Additionally, I have leveraged my strong analytical skills to identify and troubleshoot technical issues that arise, devising innovative and effective solutions to minimize production downtime.",
+    ],
+  },
+  {
+    title: "Internship",
+    company_name: "Amica SA",
+    icon: starbucks,
+    iconBg: "#383E56",
+    date: "March 2020 - March 2022",
+    points: [
+      "During my time in college, I worked part-time in an investments and maintenance department.",
+      "In this role, I was responsible for assisting with the maintenance of the factory as well as contributing to investment projects.",
+      "Some of my key duties included performing routine inspections of machinery, troubleshooting equipment malfunctions, and assisting with financial analysis and reporting for investment initiatives.",
     ],
   },
 ];
@@ -169,14 +178,6 @@ const testimonials = [
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
 ];
 
 const projects = [
@@ -189,12 +190,16 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Sanity",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Strapi",
         color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "orange-text-gradient",
       },
     ],
     image: carrent,
@@ -205,16 +210,8 @@ const projects = [
     description: "Scrit for game development classes. The link will be updated after the tournament ",
     tags: [
       {
-        name: "react",
+        name: "Lua",
         color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
       },
     ],
     image: jobit,
@@ -225,15 +222,15 @@ const projects = [
     description: "description 1",
     tags: [
       {
-        name: "nextjs",
+        name: "Flask",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "SQL",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Python",
         color: "pink-text-gradient",
       },
     ],
