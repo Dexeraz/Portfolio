@@ -33,6 +33,9 @@ import amica from "./company/amica.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import luaapp from "./luaapp.png";
+import flaskapp from "./flaskapp.png";
+import ecommerceapp from "./ecommerceapp.png";
 
 export {
   logo,
@@ -67,4 +70,7 @@ export {
   next,
   flask,
   amica,
+  ecommerceapp,
+  flaskapp,
+  luaapp,
 };

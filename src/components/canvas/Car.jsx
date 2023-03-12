@@ -21,7 +21,7 @@ const Cars = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive
         object={car.scene}
-        scale={isMobile ? 0.90 : 1.5}
+        scale={isMobile ? 0.90 : 1.2}
         position={isMobile ? [0, -2.25, 0] : [0, -2.25, 0]}
         rotation={[0, 0.7, 0]}
       />

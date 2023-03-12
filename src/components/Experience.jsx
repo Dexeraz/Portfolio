@@ -23,7 +23,7 @@ const ExperienceCard = ({ experience }) => (
         <img
           src={experience.icon}
           alt={experience.company_name}
-          className="w-[60%] h-[60%] object-contain"
+          className="w-[60%] h-[60%] object-contain "
         />
       </div>
     }
@@ -37,7 +37,7 @@ const ExperienceCard = ({ experience }) => (
         {experience.company_name}
       </p>
     </div>
-    <ul className="mt-5 list-disc ml-5 space-y-2">
+    <ul className="mt-5 list-disc ml-5 space-y-2 text-justify">
       {experience.points.map((point, index) => (
         <li
           key={`experience-point-${index}`}

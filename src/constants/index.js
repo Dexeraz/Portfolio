@@ -27,6 +27,9 @@ import {
   next,
   flask,
   amica,
+  ecommerceapp,
+  flaskapp,
+  luaapp,
 } from "../assets";
 
 export const navLinks = [
@@ -195,7 +198,7 @@ const testimonials = [
 const projects = [
   {
     name: "E-commerce App",
-    description: "description 3",
+    description: "This project has been a valuable learning experience, and I have gained significant insights into the intricacies of developing an e-commerce app. Although the development process has been largely successful, I am currently struggling with one issue related to the deployment process with Vercel. Once I resove this issue, I plan to host the app to showcase its capabilities.",
     tags: [
       {
         name: "react",
@@ -214,25 +217,12 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: carrent,
+    image: ecommerceapp,
     source_code_link: "https://github.com/Dexeraz/ecommerce-college-app",
   },
   {
-    name: "Lua Script",
-    description:
-      "Scrit for game development classes. The link will be updated after the tournament ",
-    tags: [
-      {
-        name: "Lua",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
     name: "Flask CMS",
-    description: "description 1",
+    description: "This is a CMS application with the objective of creating a user-friendly platform that enables users to log in and execute CRUD operations with ease. In the current semester, our app will undergo security evaluations in another class. Once the testing is complete, the link to the hosted app will be updated.",
     tags: [
       {
         name: "Flask",
@@ -246,9 +236,26 @@ const projects = [
         name: "Python",
         color: "pink-text-gradient",
       },
+      {
+        name: "CKEditor",
+        color: "orange-text-gradient",
+      },
     ],
-    image: tripguide,
+    image: flaskapp,
     source_code_link: "https://github.com/Dexeraz/Flask_CMS",
+  },
+  {
+    name: "Lua Script",
+    description:
+      "During the game development classes, the assignment was to create a script for three bots that would engage in combat against three bots developed by other college students. Once the class tournament concludes, the Github link containing the scripts will be updated.",
+    tags: [
+      {
+        name: "Lua",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: luaapp,
+    source_code_link: "https://github.com/",
   },
 ];
 
