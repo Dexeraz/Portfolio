@@ -23,6 +23,10 @@ import {
   jobit,
   tripguide,
   threejs,
+  python,
+  next,
+  flask,
+  amica,
 } from "../assets";
 
 export const navLinks = [
@@ -72,10 +76,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  // {
-  //   name: "Python",
-
-  // },
+  {
+    name: "Python",
+    icon: python,
+  },
   {
     name: "React JS",
     icon: reactjs,
@@ -84,10 +88,10 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  // {
-  //   name: "Next JS",
-
-  // },
+  {
+    name: "Next JS",
+    icon: next,
+  },
   {
     name: "Three JS",
     icon: threejs,
@@ -116,17 +120,17 @@ const technologies = [
   //   name: "Stripe",
 
   // },
-  // {
-  //   name: "Flask",
-
-  // },
+  {
+    name: "Flask",
+    icon: flask,
+  },
 ];
 
 const experiences = [
   {
     title: "Procument Specialist",
     company_name: "Amica SA",
-    icon: tesla,
+    icon: amica,
     iconBg: "#E6DEDD",
     date: "October 2022 - Present",
     points: [
@@ -138,8 +142,8 @@ const experiences = [
   {
     title: "Junior Automation Systems Specialist",
     company_name: "Amica SA",
-    icon: starbucks,
-    iconBg: "#383E56",
+    icon: amica,
+    iconBg: "#E6DEDD",
     date: "March 2022 - October 2022",
     points: [
       "As a Junior Automation Systems Specialist, I have played a crucial role in ensuring the seamless operation of production machinery.",
@@ -150,8 +154,8 @@ const experiences = [
   {
     title: "Internship",
     company_name: "Amica SA",
-    icon: starbucks,
-    iconBg: "#383E56",
+    icon: amica,
+    iconBg: "#E6DEDD",
     date: "March 2020 - March 2022",
     points: [
       "During my time in college, I worked part-time in an investments and maintenance department.",
